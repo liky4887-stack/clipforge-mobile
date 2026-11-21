@@ -2,16 +2,6 @@ import { colors, radius, spacing, typography } from '@/lib/theme';
 import { ActivityIndicator, Platform, Pressable, StyleSheet, Text, ViewStyle } from 'react-native';
 import * as Haptics from 'expo-haptics';
 
-const _spacing = spacing;
-const _radius = radius;
-const _typography = typography;
-const _colors = colors;
-
-void _spacing;
-void _radius;
-void _typography;
-void _colors;
-
 type Props = {
   label: string;
   onPress: () => void;
